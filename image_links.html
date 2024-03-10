@@ -2,6 +2,26 @@
  <html>
 <head>
     <title>Image Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header, section, nav {
+            margin-bottom: 20px;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        section:not(:last-child) {
+            margin-bottom: 40px;
+        }
+    </style>
 </head>
 
 <body>
@@ -21,15 +41,42 @@
     <section id="Home"
          <h2>Home</h2>   
          <p>Welcome to my website! Here is an image related to technology</p>
-            <img src="Tech.jpg" alt="Man looking at computers" loading="lazy" style="max-width: 100%;"
-</main>
+            <a href="https://www.simplilearn.com/top-technology-trends-and-jobs-article" target="_blank">
+                <img src="Tech.jpg" alt="Man looking at computers" loading="lazy" class="image-align"/> 
+            </a>
+            <style>
+                .image-align{
+                    float: left;
+                    margin: 10px;
+                    max-width: 100%;
+                }
+            </style>
+    </section>
+     
+    
+    <section id="Gallery"
+         <h2>Gallery</h2>
+         <p>Check out my nature gallery</p>
+            <a href="https://corporate.walmart.com/purpose/sustainability/planet/nature" target="_blank"> 
+                <img src="nature1.jpg" alt="land and trees" loading="lazy" style="max-width: 100%;" class="image-align"/></a>
+            <a href="https://corporate.walmart.com/purpose/sustainability/planet/nature" target="_blank">
+                <img src="nature2.jpg" alt="cows grazing in a farm" loading="lazy" class="image-align"/></a>
+            <a href="https://www.nature.org/en-us/" target="_blank"> 
+                <img src="nature3.jpg" alt="a stream" loading="lazy" style="max-width: 100%;" class="image-align"/></a>
+        <style>
+            .image-align{
+                align-items: center;
+                float: left;
+                padding: 5px;     
+            }
+        
+        
+    
 
 
 
 
 
-
-    </body>
    
 
 
@@ -42,4 +89,4 @@
 
 
 
- </html>
+ 
